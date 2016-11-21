@@ -1,0 +1,11 @@
+{
+    "name": "wanpinghui/alidayu",
+    "description": "wanpinghui, alidayu",
+    "license": "MIT",
+    "require": {
+        "php": "^5.3.3"
+    },
+    "autoload": {
+        "files": ["TopSdk.php"]
+    }
+}
