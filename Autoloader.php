@@ -47,6 +47,23 @@ class Autoloader{
         if(is_file($filename)) {
             include $filename;
             return;
+        }      
+
+        $filename = TOP_AUTOLOADER_PATH."/dingtalk/".$name.".php";
+        if(is_file($filename)) {
+            include $filename;
+            return;
+        }
+        $filename = TOP_AUTOLOADER_PATH."/dingtalk/request/".$name.".php";
+        if(is_file($filename)) {
+            include $filename;
+            return;
+        }
+
+        $filename = TOP_AUTOLOADER_PATH."/dingtalk/domain/".$name.".php";
+        if(is_file($filename)) {
+            include $filename;
+            return;
         }         
     }
 }

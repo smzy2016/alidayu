@@ -1,33 +1,33 @@
 <?php
 /**
- * TOP API: alibaba.aliqin.fc.flow.query request
+ * TOP API: taobao.top.secret.register request
  * 
  * @author auto create
- * @since 1.0, 2016.07.21
+ * @since 1.0, 2016.08.16
  */
-class AlibabaAliqinFcFlowQueryRequest
+class TopSecretRegisterRequest
 {
 	/** 
-	 * 唯一流水号
+	 * 用户id，保证唯一
 	 **/
-	private $outId;
+	private $userId;
 	
 	private $apiParas = array();
 	
-	public function setOutId($outId)
+	public function setUserId($userId)
 	{
-		$this->outId = $outId;
-		$this->apiParas["out_id"] = $outId;
+		$this->userId = $userId;
+		$this->apiParas["user_id"] = $userId;
 	}
 
-	public function getOutId()
+	public function getUserId()
 	{
-		return $this->outId;
+		return $this->userId;
 	}
 
 	public function getApiMethodName()
 	{
-		return "alibaba.aliqin.fc.flow.query";
+		return "taobao.top.secret.register";
 	}
 	
 	public function getApiParas()

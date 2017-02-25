@@ -3,7 +3,7 @@
  * TOP API: alibaba.aliqin.fc.voice.num.doublecall request
  * 
  * @author auto create
- * @since 1.0, 2016.03.06
+ * @since 1.0, 2016.10.31
  */
 class AlibabaAliqinFcVoiceNumDoublecallRequest
 {
@@ -13,7 +13,7 @@ class AlibabaAliqinFcVoiceNumDoublecallRequest
 	private $calledNum;
 	
 	/** 
-	 * 被叫号码侧的号码显示，传入的显示号码可以是阿里大鱼“管理中心-号码管理”中申请通过的号码。显示号码格式如下057188773344，4001112222，95500。显示号码也可以为主叫号码。
+	 * 被叫号码侧的号码显示，传入的显示号码可以是阿里大于“管理中心-号码管理”中申请通过的号码。显示号码格式如下057188773344，4001112222，95500。显示号码也可以为主叫号码。
 	 **/
 	private $calledShowNum;
 	
@@ -23,7 +23,7 @@ class AlibabaAliqinFcVoiceNumDoublecallRequest
 	private $callerNum;
 	
 	/** 
-	 * 主叫号码侧的号码显示，传入的显示号码必须是阿里大鱼“管理中心-号码管理”中申请通过的号码。显示号码格式如下057188773344，4001112222，95500
+	 * 主叫号码侧的号码显示，传入的显示号码必须是阿里大于“管理中心-号码管理”中申请通过的号码。显示号码格式如下057188773344，4001112222，95500
 	 **/
 	private $callerShowNum;
 	
